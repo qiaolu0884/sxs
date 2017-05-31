@@ -1,0 +1,70 @@
+/* CSS Document */
+span.value{ padding-right: 1em;}
+label.radio {
+  display: inline-block;
+  height: 14px;
+  width: 14px;
+  position: relative;
+  margin: 0 5px 5px 0;
+  padding: 0;
+  border: 1px solid #fb4f2e;
+  background-color: #fff;
+  border-radius: 100%;
+  vertical-align: top;
+  cursor: pointer;
+}
+label.radio > span.pip {
+  width: 2px;
+  height: 5px;
+  position: absolute;
+  background: #fff;
+  -moz-transform: rotate(-45deg);
+  -ms-transform: rotate(-45deg);
+  -o-transform: rotate(-45deg);
+  -webkit-transform: rotate(-45deg);
+  transform: rotate(-45deg);
+  top: 5px;
+  left: 2px;
+
+}
+label.radio > span.pip1 {
+  width: 2px;
+  height: 9px;
+  position: absolute;
+  background: #fff;
+  -moz-transform: rotate(-135deg);
+  -ms-transform: rotate(-135deg);
+  -o-transform: rotate(-135deg);
+  -webkit-transform: rotate(-135deg);
+  transform: rotate(-135deg);
+  top: 2px;
+  left: 6px;
+}
+label.radio.on {
+	border: 1px solid #fb4f2e;
+  background-color: #fff;
+}
+label.radio.on > span.pip {
+  -moz-transform: rotate(-45deg);
+  -ms-transform: rotate(-45deg);
+  -o-transform: rotate(-45deg);
+  -webkit-transform: rotate(-45deg);
+  transform: rotate(-45deg);
+   background-color: #fb4f2e;
+}
+label.radio.on > span.pip1 {
+  -moz-transform: rotate(-135deg);
+  -ms-transform: rotate(-135deg);
+  -o-transform: rotate(-135deg);
+  -webkit-transform: rotate(-135deg);
+  transform: rotate(-135deg);
+  background-color: #fb4f2e;
+}
+label.radio.focus {
+  outline: 0;
+}
+input[type=checkbox].replaced,
+input[type=radio].replaced {
+  position: absolute;
+  left: -9999em;
+}

@@ -1,0 +1,63 @@
+/* CSS Document */
+.shop .goods{ border: 3px solid #f0f0f0; border-top: none; border-bottom: none;}
+.shop .goods > div{ float: left; width: 50%; padding: 0 20px; margin-top: 8px; margin-bottom: 5px; }
+.shop .goods img{ width: 100%; display: block; }
+.shop .goods a{ display: block; width: 60px; height: 25px; margin: 15px auto 0; }
+
+.shop .order_corder{ line-height: 34px; font-size: 11px; }
+
+.shop h2.title{ height: 30px; background: url(../img/_temp/title_bg.png) repeat-x; background-size: contain;}
+.shop h2.title img{ height: 20px; margin: 4px 0 0 10px;}
+
+.shop .select{ border: 3px solid #f0f0f0; border-top: none; border-bottom: none; }
+.shop div.date{ width: 150px; margin-top: 5px;}
+.shop div.date input{ border: 1px solid #ddd; height: 24px; line-height: 24px; font-size: 11px; text-align: center; }
+.shop .select a.btn{ float: right; width: 40px; height: 24px; line-height: 24px; margin-top: 5px; background: #fb4f2e; font-size: 11px; color: #fff; text-align: center;}
+
+
+.shop .order{ padding-bottom: 15px;}
+.shop .order > div{ border: 3px solid #f0f0f0; border-top: none; border-bottom: 10px solid #f0f0f0;}
+
+.shop .order p{  font-size: 12px; }
+.shop .order p.order_num{ line-height: 32px; border-bottom: 1px solid #ddd;}
+
+.shop .order table{  width: 100%; text-align: center; margin-top: 10px; }
+.shop .order table td{ height: 20px; font-size: 10px; }
+.shop .order table img{ width: 45px;}
+.shop .order table tr:first-child  td:nth-child(3){ border-right: 1px solid #ddd;}
+.shop .order table tr:not(:first-child) td:nth-child(2){ border-right: 1px solid #ddd;}
+.shop .order table tr td:last-child{ width: 95px;}
+.shop .order table tr td.state{ font-size: 12px; }
+.shop .order table tr td.time{ color: #fb4f2e;}
+.shop .order table tr a.pay{ display: inline-block; width: 60px; height: 20px; line-height: 20px; color: #fff; font-size: 12px; background: #fb4f2e; border-radius: 3px;}
+
+
+.shop .popup .content{ height: 140px; padding: 0 5px; background: url(../img/_temp/popupbg.png) repeat-x; background-size: contain; border-color: #ffe591; }
+.shop .popup .content h2{ position: absolute; left: 50%; top: -30px; width: 84px; height: 30px; line-height: 30px; margin-left: -42px; border-top-left-radius: 8px; border-top-right-radius: 8px; background: #ffe591;}
+.shop .popup .content h2 img{ width: 50px; }
+.shop .popup .content div{ margin: 0;}
+.shop .popup .content > div{ margin: 25px 25px 0;}
+.shop .popup .content > div:nth-of-type(2){margin: 15px 25px;}
+.shop .popup .content span.txt{ 
+	background: -webkit-gradient(linear, 0 0, 0 bottom, from(rgba(216, 202, 81, 1)), to(rgba(250, 243, 197, 1)));
+     -webkit-background-clip: text;
+     -webkit-text-fill-color: transparent;
+      padding-right: 20px;
+      font-size: 13px;
+	}
+.shop .popup .gw_num{ position: relative; width: 62px; height: 18px; border-radius: 9px; background: #a27628; overflow: hidden; margin: 0;
+		background: -webkit-gradient(linear, 0 0, 0 bottom, from(rgba(216, 202, 81, 1)), to(rgba(250, 243, 197, 1)))
+ }
+.shop .popup .gw_num a{ position: absolute; width: 18px; height: 18px; line-height: 18px; border-radius: 50%; border: none;
+		background: -webkit-gradient(linear, 0 0, 0 bottom, from(rgba(216, 202, 81, 1)), to(rgba(250, 243, 197, 1)))
+}
+.shop .popup .gw_num a.jian{ left: 0 ; top: 0; z-index: 10; }
+.shop .popup .gw_num a.add{ right: 0 ; top: 0; }
+.shop .popup .gw_num img{ width: 12px; margin: 3px auto;}
+.shop .popup .gw_num .num{position: absolute; left: 0; top: 2px;  width: 62px; height: 14px; line-height: 14px; margin: 0 ; padding: 0;background: #a27628;}
+.shop .popup .gw_num .num input{ position: absolute; left: 50%; height: 14px; line-height: 14px; width: 26px; margin-left: -13px; border: none; background: #a27628; color: #fff; text-align: center; font-size: 12px; }
+.shop .popup a.buy{ display: block; margin: 0 auto; width: 48px; height: 20px; } 
+.shop .popup .gw_total span.txt{ padding: 0;}
+.shop .popup a.buy img{ width: 100%; }
+@media screen and (min-width: 750px){
+	}

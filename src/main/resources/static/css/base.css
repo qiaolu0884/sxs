@@ -1,0 +1,93 @@
+/* CSS Document */
+*{margin:0; padding:0; outline: none; -webkit-tap-highlight-color: rgba(255, 255, 255, 0); font-weight: normal;}
+input{ -webkit-appearance:none; }
+a{text-decoration:none; color: #5a5a5a;}
+li{list-style:none;}
+img{ border:none;}
+input,button,textarea{font-family:"微软雅黑","思源黑体 CN", "仿宋", "黑体", "楷体", "宋体", "新宋体", Verdana, Geneva, sans-serif, Arial, Helvetica, sans-serif;}
+body{ font-family:"微软雅黑","思源黑体 CN", "仿宋", "黑体", "楷体",  "新宋体", Verdana, Geneva, sans-serif, Arial, Helvetica, sans-serif; font-size: 14px; color:#5a5a5a; overflow-x: hidden; }
+
+@media screen and (max-width: 320px){
+	body{ font-size: 12px;}
+	input[type="text"]{ height: 36px; }
+	input[type="button"]{ height: 36px;  font-size: 14px;}
+
+	}
+.left{float:left;}
+.right{float:right;}
+.clearfix:after{content:"."; display:block; clear:both; font-size:0; line-height:0; overflow:hidden;}
+.clearfix{zoom:1;}
+hr{ border:0; height:1px; background:#ddd;}
+
+.wrapper{ padding: 10px;}
+
+/*头部标题*/
+header{ position: relative; height: 40px;  text-align: center; background: url(../img/_temp/titlebg.jpg) repeat-x; background-size: contain;}
+header b.header_bg{ position: absolute; left: 0; top: 3px; width: 100%; height: 34px; background: url(../img/_temp/headerbg1.png) center center no-repeat; background-size: contain;}
+header a.back img{ width: 26px;}
+header a.back{ position: absolute; left: 10px; top: 7px;  z-index: 99;}
+header > img{ height: 26px; margin-top: 7px;}
+
+header.index{ height: 36px; width: 100%; background: #373b3e; position: fixed; left: 0; top: 0; border-bottom: 4px solid #000; z-index: 99;}
+
+
+/*弹窗*/
+.popup{ position: absolute; left: 0; top: 0; width: 100%; height: 100%; z-index: 100; }
+.popup .popupbg{ position: fixed; width: 100%; height: 100%; background: rgba(0,0,0,0.3);}
+.popup .content{ position: fixed; left: 50%; top: 50%; height: 120px; width: 220px; margin-left: -110px; margin-top: -60px; text-align: center; background: #faedb9; border: 6px solid #7bf5ca; border-radius: 20px; }
+.popup .content .close{ position: absolute; right: -10px; top: -10px; width: 23px;}
+.popup .content .text{ width: 125px; margin-top: 30px; }
+.popup .content div{ margin: 25px 25px 0;}
+.popup .content div a img{ width: 56px; }
+
+
+form input[type="submit"]{ border: none;}
+form div{ margin-top:10px ;}
+form label{ float: left; width: 20%; height: 30px; line-height: 30px; text-align: left; font-size: 12px; }
+form input[type="text"]{ float: left; width: 78%; height: 30px; border: 1px solid #ddd; font-size: 12px; padding: 8px; }
+form input[type="text"]::-webkit-input-placeholder{ color: #bbb; font-size: 10px; }
+form input[type="text"]:-moz-placeholder{ color: #bbb; font-size: 10px; }
+form input[type="text"]::-moz-placeholder{ color: #bbb; font-size: 10px; }
+form input[type="text"]:-ms-input-placeholder{ color: #bbb; font-size: 10px; }
+form input[type="text"]::-ms-input-placeholder{ color: #bbb; font-size: 10px; }
+
+/*----验证码----*/
+form div.code{ float: left; }
+form div.code input{ width: 47%; }
+form div.code span{ float: right;  width: 49%; height: 30px; line-height: 30px; text-align: center;}
+form .msgs {background: #fb4f2e; color: #fff; font-size: 12px; border-radius: 5px;  cursor: pointer; }
+form .msgs1{background:#e6e6e6; color:#818080; cursor: default; }
+
+
+
+
+.android-ics .dwv{ 
+	height: 40px; line-height: 40px; 
+	border-bottom: 1px solid #fb4f2e;
+	color: #ff605d;
+	 }
+
+.dwl{ display: none;}
+
+.android-ics .dwc{ padding-top: 10px;}
+
+.android-ics .dw .dwwol{ border-top: 1px solid #fb4f2e; border-bottom: 1px solid #fb4f2e;}
+.android-ics.light .dww .dw-li { color: #5a5a5a;}
+
+/*.android-ics.light .dwbc{ border-color: #ff605d;}*/
+/*.android-ics.light .dwb-s .dwb, .android-ics.light .dwb-n .dwb{ border-color: #ff605d;}*/
+.android-ics.light .dwb{ color: #5a5a5a;}
+.android-ics .dw .dwb{ height: 40px; line-height: 40px; font-weight: bold;}
+.android-ics .dwb-s span.dwb{ color: #fb4f2e;}
+.android-ics .dwb-c span.dwb{ color: #ccc;}
+
+
+.btn{ display: block; width: 100%; height: 40px; line-height: 40px; margin-top: 15px; border-radius: 5px; font-size: 16px; color: #fff; text-align: center;}
+.kj{ background: #fb4f2e; }
+.wechat{ background: #22a204; }
+.zfb{ background: #00aaef; }
+
+@media screen and (min-width: 750px){
+	body,html{ position: relative; width: 750px; margin: 0 auto; font-size: 14px; }
+	.popup .popupbg{ position: fixed; width: 750px; height: 100%; background: rgba(0,0,0,0.3);}
+	}
